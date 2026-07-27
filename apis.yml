@@ -1,7 +1,24 @@
 aid: instaplay
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/instaplay.png
 name: Instaplay
-description: Instaplay is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Instaplay is an AI-native social gaming platform that turns plain-text prompts
+  into playable multiplayer games with no coding required. Users describe a game idea
+  in natural language ("a two-player pong game where paddles shrink after every point")
+  and the platform generates a playable prototype that can be tested, remixed, and shared
+  via link within seconds. It supports party, co-op, competitive, local, online, and solo
+  formats. Founded in San Francisco and part of Y Combinator's Summer 2026 batch, Instaplay
+  frames games as a training ground for world models and embodied agents on the path to AGI.
 url: https://raw.githubusercontent.com/api-evangelist/instaplay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Gaming
+- Multiplayer
+- No-Code
+- Game Development
+- Social
+- Generative AI
 apis: []
+common:
+- type: Website
+  url: https://instaplay.ai
+- type: Blog
+  url: https://instaplay.ai/blog
+- type: About
+  url: https://instaplay.ai/about
+- type: X
+  url: https://x.com/instaplayGG
+- type: DomainSecurity
+  url: security/instaplay-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
